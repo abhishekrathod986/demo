@@ -1,14 +1,48 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "Recordset": {
+    "Order": [
+      {
+        "OrderID": "16",
+        "OrderName": "Nike TShirt Order",
+        "OrderDescription": "200 Tshirts Production Order",
+        "OrderStartDate": "2020-06-15T00:00:00",
+        "OrderEndDate": "2020-06-26T00:00:00",
+        "Merchandiser": "7000019-Dominic Heath",
+        "OrderQty": "200",
+        "Price": "10 USD",
+        "PlannedWorker": "5",
+        "WorkerDays": "5",
+        "TotalRevenue": "2000 USD",
+        "Duration": "8"
+      },
+      {
+        "OrderID": "17",
+        "OrderName": "Jenny Packam Designer Gowns",
+        "OrderDescription": "200 Designer Gowns Production Order",
+        "OrderStartDate": "2020-07-06T00:00:00",
+        "OrderEndDate": "2020-08-31T00:00:00",
+        "Merchandiser": "7000006-Ralph Faber",
+        "OrderQty": "200",
+        "Price": "70 EUR",
+        "PlannedWorker": "10",
+        "WorkerDays": "1",
+        "TotalRevenue": "14000 EUR",
+        "Duration": "20"
+      },
+      {
+        "OrderID": "18",
+        "OrderName": "Armani Designers Order",
+        "OrderDescription": "100 Armani Designer Shirts for Women",
+        "OrderStartDate": "2020-07-13T00:00:00",
+        "OrderEndDate": "2020-07-31T00:00:00",
+        "Merchandiser": "7000022-Panbil Ceja",
+        "OrderQty": "100",
+        "Price": "20 EUR",
+        "PlannedWorker": "5",
+        "WorkerDays": "5",
+        "TotalRevenue": "2000 EUR",
+        "Duration": "4"
+      }
+    ]
   }
 }
